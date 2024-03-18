@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    background-color: #070825;
+}
+
+.first{
+    height: 70px;
+    float: left;
+}
+.bande{
+    height: 70px;
+    background-color: #DA5E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin-right: 7px;
+    color: azure;
+    width: 10vw;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+a:hover{
+    font-weight: bold;
+    color: #FFFBCC;
+}
+#ici{
+    border-bottom: #070825 solid 3px;
+}
+
+.second{
+    background-image: url(bhuh.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    font-family: 'Lucida Sans Regular';
+    text-align: center;
+    color: #ff9eae;
+    padding-bottom: 10px;
+}
+#im{
+    color: azure;
+    width: 69%;
+    height: 1325px;
+    margin-top: 30px;
+}
+#im nav{
+    margin-top: 3%;
+}
+#vid{
+    width: auto;
+    height: 30%;
+    border-radius: 7px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+#matin{
+    width: 69%;
+    height: 400px;
+    border-radius: 7px;
+    float: left;
+}
+#monu{
+    width: 29%;
+    height: 400px;
+    float: right;
+}
+nav img{
+    border-radius: 7%;
+}
+#plus{
+    width: 29%;
+    height: 400px;
+    float: left;
+}
+#plus img{
+    border-radius: 7%;
+}
+#nuit{
+    width: 69%;
+    height: 400px;
+    border-radius: 7px;
+    float: right;
+}
+#texte{
+    color: azure;
+    width: 29%;
+    background-color: rgba(247, 129, 176, 0.769);
+    height: 1325px;
+    float: right;
+    padding-left: 8px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+p{
+    padding-left: 8px;
+}
+hr{
+    border-color: rgb(12 74 110);
+    border-width: 2px;
+}
+footer{
+    color: azure;
+    margin-left: 14px;
+}

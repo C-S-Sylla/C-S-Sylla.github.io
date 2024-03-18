@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    background-color: #070825;
+}
+
+.first{
+    height: 70px;
+    float: left;
+}
+.bande{
+    height: 70px;
+    background-color: #DA5E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin-right: 7px;
+    color: azure;
+    width: 10vw;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+a:hover{
+    font-weight: bold;
+    color: #FFFBCC;
+}
+#ici{
+    border-bottom: #070825 solid 3px;
+}
+
+.second{
+    background-image: url(bhuh.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    font-family: 'Lucida Sans Regular';
+    text-align: center;
+    color: #ff9eae;
+    padding-bottom: 10px;
+    
+}
+.propos {
+    background-color: rgba(247, 129, 176, 0.628);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(255, 155, 68);
+    margin: auto;
+    width: 90%;
+    right: 50%;
+    position: absolute;
+    bottom: 4px;
+    transform: translate(50%, 0%);
+}
+h2{
+    text-decoration: underline;
+    color: #DA5E38;
+    margin-left: 2%;
+    font-family:'Segoe UI', 'Helvetica Neue';
+}
+.hd{
+    text-align: right;
+    margin-right: 2%;
+}
+#d{
+    float: left;
+    width: 47%;
+    color: #ffffff;
+    margin-left: 1%;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#g{
+    float: right;
+    width: 47%;
+    color: #ffffff;
+    margin-right: 1%;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d p{
+    margin: auto;
+
+}
+#d a,#g a{
+    color: rgb(55, 35, 145);
+}
+#d a:hover,#g a:hover{
+    color: #ff9eae;
+}
+.gauche{
+ margin-left: 50%;
+
+ overflow: hidden;
+ width: 49%;
+}
+.droite{
+    margin-right: 50%;
+    width: 49%;
+    overflow: hidden;
+}
+marquee{
+    border-radius: 100%;
+}
+marquee img {
+    height: 439px;
+    width: 600px;
+}
+hr{
+    border-color: rgb(12 74 110);
+    border-width: 2px;
+}
+footer{
+    color: azure;
+    margin-left: 14px;
+}
